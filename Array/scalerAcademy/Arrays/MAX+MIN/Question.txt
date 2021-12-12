@@ -1,4 +1,4 @@
-/*Problem Description
+Problem Description
 
 Given an array A of size N. You need to find the sum of Maximum and Minimum element in the given array.
 
@@ -57,9 +57,3 @@ Explanation 1:
 Explanation 2:
 
  Maximum Element is 4 and Minimum element is 1. (4 + 1) = 5.
- */
-
-int Solution::solve(vector<int> &A) {
-    sort(A.begin(), A.end());
-    return A[A.size()-1] + A[0];
-}

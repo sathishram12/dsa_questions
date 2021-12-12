@@ -1,4 +1,4 @@
-/*Problem Description
+Problem Description
 
 Given an integer array A, find if an integer p exists in the array such that the number of integers greater than p in the array equals to p.
 
@@ -46,16 +46,3 @@ Explanation 1:
 Explanation 2:
 
  There is no such integer exists.
- */
-int Solution::solve(vector<int> &A) {
-    int size = A.size();
-    sort(A.begin(), A.end(),greater<int>());
-    if(A[0] == 0){
-        return 1;
-    }
-    for (int i = 1; i < size; i++){
-        if (A[i] > 0 && A[i] != A[i-1] && A[i]==i)
-            return 1;
-    }
-    return -1;
-}

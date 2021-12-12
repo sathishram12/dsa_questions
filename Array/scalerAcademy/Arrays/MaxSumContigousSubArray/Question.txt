@@ -1,4 +1,4 @@
-/*Problem Description
+Problem Description
 
 Find the contiguous subarray within an array, A of length N which has the largest sum.
 
@@ -51,21 +51,4 @@ Explanation 1:
 
 Explanation 2:
 
- The subarray [4,-1,2,1] has the maximum possible sum of 6. */
-
-
-// Kadence algorithm
-int Solution::maxSubArray(const vector<int> &A) {
-    int max_progress = 0;
-    int max_final = INT_MIN;
-    for (std::vector<int>::size_type i = 0; i < A.size(); i++){
-        if (A[i] <= max_progress + A[i]){
-            max_progress += A[i];
-        } else {
-            max_progress = A[i];
-        }
-        if (max_progress > max_final)
-            max_final = max_progress;
-    }
-    return max_final;
-}
+ The subarray [4,-1,2,1] has the maximum possible sum of 6. 

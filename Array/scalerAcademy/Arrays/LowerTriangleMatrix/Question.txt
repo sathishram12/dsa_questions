@@ -1,5 +1,3 @@
-/*Q5. Lower Triangular Matrix
-
 Problem Description
 
 You are given a N X N integer matrix A. You have to tell whether it is a lower triangular matrix or not.
@@ -63,16 +61,3 @@ Explanation 1:
 Explanation 2:
 
  As A[1][2] is not equal to zero, it is not a lower triangular matrix.
-
-*/
-int Solution::solve(const vector<vector<int> > &A) {
-    for (int i = 0; i < A.size(); i++)
-    {
-        for (int j = 0; j < A[i].size(); j++)
-        {
-           if (j > i && A[i][j] != 0){
-               return 0;
-           }
-        }   
-    }
-    return 1;

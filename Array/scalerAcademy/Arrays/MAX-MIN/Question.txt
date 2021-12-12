@@ -1,4 +1,4 @@
-/*Given an array of integers A and an integer B, find and return the difference of B'th max element and B'th min element of the array A.
+Given an array of integers A and an integer B, find and return the difference of B'th max element and B'th min element of the array A.
 
 
 Input Format
@@ -28,15 +28,3 @@ Input 2:
     B = 1
 Output 2:
     95  (100 - 5 = 95)
-*/
-
-
-int Solution::solve(vector<int> &A, int B) {
-    if (B > A.size()){
-        return 0;
-    }
-    sort(A.begin(), A.end());
-    int start = B-1;
-    int last = A.size()-B;
-    return A[last] - A[start];
-}
