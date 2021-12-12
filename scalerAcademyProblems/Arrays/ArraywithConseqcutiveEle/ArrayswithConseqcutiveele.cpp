@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(vector<int> &A) {
+int solve(vector<int> &A) {
     int min = INT_MAX;
     int max = 0;
     sort(A.begin(), A.end());

@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-vector<int> Solution::solve(int A, vector<vector<int> > &B) {
+vector<int> solve(int A, vector<vector<int> > &B) {
     vector<int>coins(A,0);
     for (int i = 0; i < B.size(); i++){
         int start = B[i][0]-1;

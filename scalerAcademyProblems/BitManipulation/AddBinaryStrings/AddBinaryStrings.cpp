@@ -2,7 +2,7 @@
 #include<string>
 
 using namespace std;
-string Solution::addBinary(string A, string B) {
+string addBinary(string A, string B) {
     reverse(A.begin(), A.end());
     reverse(B.begin(), B.end());
     int n = 0 ; 

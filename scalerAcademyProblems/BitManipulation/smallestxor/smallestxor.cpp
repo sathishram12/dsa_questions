@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(int A, int B) {
+int solve(int A, int B) {
     int x=0;
     for (int i = 30; i < 0 ; i--) {
         if (B == 0)

@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-long Solution::subarraySum(vector<int> &A) {
+long subarraySum(vector<int> &A) {
     long sum = 0;
     long len = A.size();
     for (int i = 0; i < len; i++ )

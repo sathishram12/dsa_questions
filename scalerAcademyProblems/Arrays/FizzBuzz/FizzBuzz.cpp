@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 
-vector<string> Solution::fizzBuzz(int A) {
+vector<string> fizzBuzz(int A) {
     vector<string> result;
 
     for (int i=1 ;i <= A; i++){

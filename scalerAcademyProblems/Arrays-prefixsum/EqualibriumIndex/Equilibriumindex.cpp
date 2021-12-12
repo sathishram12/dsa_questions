@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(vector<int> &A) {
+int solve(vector<int> &A) {
     
     int sum=0;
     int leftsum=0;

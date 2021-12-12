@@ -1,7 +1,7 @@
 
 
 
-vector<vector<int> > Solution::solve(int A) {
+vector<vector<int> > solve(int A) {
    vector< vector< int > > ans(A);
     for(int i = 1; i <= A; i++) {
         for(int j = 1; j <= i; j++)

@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(string A) {
+int solve(string A) {
     int sum = 0;
     int count = 0;
     int len = A.size();

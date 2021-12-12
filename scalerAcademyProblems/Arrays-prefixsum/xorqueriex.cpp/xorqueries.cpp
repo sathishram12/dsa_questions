@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-vector<vector<int> > Solution::solve(vector<int> &A, vector<vector<int> > &B) {
+vector<vector<int> > solve(vector<int> &A, vector<vector<int> > &B) {
     int n = A.size();
     vector<vector<int>> result;
     

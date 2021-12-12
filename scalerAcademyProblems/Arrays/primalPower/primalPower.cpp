@@ -16,7 +16,7 @@ bool isprime (int no){
     return true;
 }
 
-int Solution::solve(vector<int> &A) {
+int solve(vector<int> &A) {
     int count = 0;
 
     for (int i=0; i < A.size(); i++ ){

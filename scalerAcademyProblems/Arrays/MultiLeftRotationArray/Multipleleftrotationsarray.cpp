@@ -12,7 +12,7 @@ void reverseArray(vector<int> &A, int start, int end ){
     }
 }
 
-vector<vector<int> > Solution::solve(vector<int> &A, vector<int> &B) {
+vector<vector<int> > solve(vector<int> &A, vector<int> &B) {
     vector<vector<int>> result;
     int A_size = A.size();
     int B_size = B.size();

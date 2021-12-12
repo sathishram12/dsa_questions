@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::maxSubArray(const vector<int> &A) {
+int maxSubArray(const vector<int> &A) {
     int max_progress = 0;
     int max_final = INT_MIN;
     for (std::vector<int>::size_type i = 0; i < A.size(); i++){

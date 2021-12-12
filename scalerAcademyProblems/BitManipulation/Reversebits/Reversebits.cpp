@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-unsigned int Solution::reverse(unsigned int A) {
+unsigned int reverse(unsigned int A) {
     unsigned int count = sizeof(A) * 8;
     unsigned int reverse_A = A;
 

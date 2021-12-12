@@ -3,7 +3,7 @@
 using namespace std;
 
 
-vector<int> Solution::solve(vector<int> &A) {
+vector<int> solve(vector<int> &A) {
     int size = A.size();
     int max_from_right =  A[size-1]; 
   

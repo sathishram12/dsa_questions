@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(vector<int> &A) {
+int solve(vector<int> &A) {
     int size = A.size();
     sort(A.begin(), A.end(),greater<int>());
     if(A[0] == 0){

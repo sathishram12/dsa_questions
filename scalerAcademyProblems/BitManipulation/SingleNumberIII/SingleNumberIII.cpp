@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-vector<int> Solution::solve(vector<int> &A) {
+vector<int> solve(vector<int> &A) {
     int var = 0
     for (auto &i: A) {
         var ^=i;

@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(const vector<vector<int> > &A) {
+int solve(const vector<vector<int> > &A) {
     for (int i = 0; i < A.size(); i++)
     {
         for (int j = 0; j < A[i].size(); j++)

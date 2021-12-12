@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int Solution::solve(vector<int> &A, int B) {
+int solve(vector<int> &A, int B) {
     int curr_sum = 0;
     int min_sum = 0;
     int res_index =0;
