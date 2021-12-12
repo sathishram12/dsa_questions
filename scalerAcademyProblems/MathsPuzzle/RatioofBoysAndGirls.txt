@@ -1,0 +1,31 @@
+In a country where everyone wants a boy, each family continues having babies till they have a boy. After some time, 
+what is the proportion of boys to girls in the country? (Assuming probability of having a boy or a girl is the same)
+
+Assumptions: Probability of having a boy or girl is same. Also, the probability of next kid being a boy doesn’t depend on history.
+
+The problem can be solved by counting expected number of girls before a baby boy is born.
+
+
+Let NG be the expected no. of girls before a boy is born
+
+Let p be the probability that a child is girl and (1-p)
+be probability that a child is boy.
+
+NG can be written as sum of following infinite series.
+
+NG = 0*(1-p) + 1*p*(1-p) + 2*p*p*(1-p) + 3*p*p*p*(1-p) + 4*p*p*p*p*(1-p) +.....
+
+Putting p = 1/2 and (1-p) = 1/2 in above formula.
+
+NG    = 0*(1/2) + 1*(1/2)2 + 2*(1/2)3 + 3*(1/2)4  +  4*(1/2)5 + ...
+1/2*NG = 0*(1/2)2 + 1*(1/2)3 + 2*(1/2)4 + 3*(1/2)5  +  4*(1/2)6 + ...
+
+NG - NG/2 =  1*(1/2)2 + 1*(1/2)3 + 1*(1/2)4 + 1*(1/2)5  +  1*(1/2)6 + ...
+
+Using sum formula of infinite geometrical progression with
+ratio less than 1
+NG/2 = (1/4)/(1-1/2) = 1/2
+
+NG = 1
+
+Ans :https://www.geeksforgeeks.org/puzzle-17-ratio-of-boys-and-girls-in-a-country-where-people-want-only-boys
